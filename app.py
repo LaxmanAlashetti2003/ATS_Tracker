@@ -11,7 +11,7 @@ import google.generativeai as genai
 load_dotenv()
 
 # Configure Google Gemini API (update with the supported model)
-genai.configure(api_key=os.getenv("AIzaSyDzRTWFWeGb6dr0oye--aEzW4hvz1ety0U"))
+genai.configure(api_key="AIzaSyDzRTWFWeGb6dr0oye--aEzW4hvz1ety0U")
 
 # Function to handle Google Gemini API response
 def get_gemini_response(input_text, file_content, prompt):
